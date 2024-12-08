@@ -1042,7 +1042,7 @@ fn main () {
     26 25 24 22 21 19
     ";
 
-    let safe_report_count = count_safe_reports (input_data);
+    let safe_report_count = count_safe_reports (data);
 
     println! ("Le nombre de rapports sûrs est : {}", safe_report_count);
 }
